@@ -1,0 +1,114 @@
+    1  sudo passwd
+    2  git clone
+    3  ls
+    4  git clone https://github.com/gabayae/friendly-shell-lesson.git shell-lesson
+    5  ls
+    6  cd shell-lesson
+    7  ls
+    8  pwd
+    9  ls
+   10  cd ..
+   11  mkdir myMusic
+   12  mkdir dossierChant
+   13  ls
+   14  cd aimssn
+   15  ls
+   16  mkdir mesChants
+   17  cd
+   18  ls
+   19  mkdir myMusic
+   20  rmd myMusic
+   21  ls
+   22  rmdir myMusic
+   23  ls
+   24  man man
+   25  cat
+   26  gdit file.txt
+   27  cd shell-lesson
+   28  ls
+   29  cat dictionary.txt 
+   30  gedit justice
+   31  nano justice
+   32  touch another
+   33  ls
+   34  gedit another 
+   35  mkdir dossier1
+   36  ls
+   37  cp another dossier1/
+   38  ls
+   39  cd dossier1/
+   40  ls
+   41  cd ..
+   42  touch text2.txt
+   43  mv text2.txt dossier1/
+   44  cd dossier1
+   45  ls
+   46  cd
+   47  mkdir simplestats
+   48  cd simlpestats
+   49  git init
+   50  ls -A
+   51  ls
+   52  cd
+   53  mkdir simplestats
+   54  cd simplestats
+   55  git init
+   56  ls
+   57  ls -a
+   58  ls -A
+   59  cd .git
+   60  ls
+   61  ls -A
+   62  touch README.md
+   63  git status
+   64  git add README.md
+   65  cd ..
+   66  touch README.md
+   67  git status
+   68  git add README.md
+   69  git status
+   70  git log
+   71  git commit -m "first commit"
+   72  git config --global user.name "dzodzo89"
+   73  git config --global user.email "dzodzoenyenye.a.senanou@aims-senegal.org"
+   74  git commit -m "first commit"
+   75  git log
+   76  git status
+   77  ls
+   78  git branch
+   79  git branch experimental 
+   80  git branch
+   81  git branch deletebranch
+   82  git branch
+   83  git branch -d deletebranch
+   84  git branch add_stats
+   85  git checkout add_stats
+   86  git branch
+   87  pwd
+   88  mkdir unix
+   89  ls
+   90  touch foo.txt unix
+   91  ls
+   92  pwd
+   93  ls
+   94  help
+   95  help pwd
+   96  help cp
+   97  man -k cp
+   98  help mv
+   99  man -k mv
+  100  help mv(1)
+  101  help mv
+  102  man
+  103  man ls
+  104  pwd
+  105  ls -a
+  106  ls
+  107  man ls
+  108  ls -R
+  109  man ls
+  110  man count
+  111  man l
+  112  man w
+  113  man wc
+  114  history >>exo2.txt

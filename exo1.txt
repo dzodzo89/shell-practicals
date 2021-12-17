@@ -1,0 +1,193 @@
+    1  sudo passwd
+    2  git clone
+    3  ls
+    4  git clone https://github.com/gabayae/friendly-shell-lesson.git shell-lesson
+    5  ls
+    6  cd shell-lesson
+    7  ls
+    8  pwd
+    9  ls
+   10  cd ..
+   11  mkdir myMusic
+   12  mkdir dossierChant
+   13  ls
+   14  cd aimssn
+   15  ls
+   16  mkdir mesChants
+   17  cd
+   18  ls
+   19  mkdir myMusic
+   20  rmd myMusic
+   21  ls
+   22  rmdir myMusic
+   23  ls
+   24  man man
+   25  cat
+   26  gdit file.txt
+   27  cd shell-lesson
+   28  ls
+   29  cat dictionary.txt 
+   30  gedit justice
+   31  nano justice
+   32  touch another
+   33  ls
+   34  gedit another 
+   35  mkdir dossier1
+   36  ls
+   37  cp another dossier1/
+   38  ls
+   39  cd dossier1/
+   40  ls
+   41  cd ..
+   42  touch text2.txt
+   43  mv text2.txt dossier1/
+   44  cd dossier1
+   45  ls
+   46  cd
+   47  mkdir simplestats
+   48  cd simlpestats
+   49  git init
+   50  ls -A
+   51  ls
+   52  cd
+   53  mkdir simplestats
+   54  cd simplestats
+   55  git init
+   56  ls
+   57  ls -a
+   58  ls -A
+   59  cd .git
+   60  ls
+   61  ls -A
+   62  touch README.md
+   63  git status
+   64  git add README.md
+   65  cd ..
+   66  touch README.md
+   67  git status
+   68  git add README.md
+   69  git status
+   70  git log
+   71  git commit -m "first commit"
+   72  git config --global user.name "dzodzo89"
+   73  git config --global user.email "dzodzoenyenye.a.senanou@aims-senegal.org"
+   74  git commit -m "first commit"
+   75  git log
+   76  git status
+   77  ls
+   78  git branch
+   79  git branch experimental 
+   80  git branch
+   81  git branch deletebranch
+   82  git branch
+   83  git branch -d deletebranch
+   84  git branch add_stats
+   85  git checkout add_stats
+   86  git branch
+   87  pwd
+   88  mkdir unix
+   89  ls
+   90  touch foo.txt unix
+   91  ls
+   92  pwd
+   93  ls
+   94  help
+   95  help pwd
+   96  help cp
+   97  man -k cp
+   98  help mv
+   99  man -k mv
+  100  help mv(1)
+  101  help mv
+  102  pwd
+  103  mkdir unix
+  104  ls
+  105  cd unix
+  106  touch foo.txt
+  107  ls
+  108  cp foo.txt foo-copy.txt
+  109  ls
+  110  mv foo-copy.txt foo2.txt
+  111  ls
+  112  mkdir data
+  113  ls
+  114  mkdir new
+  115  ls
+  116  mv foo2.txt data
+  117  ls
+  118  cd data 
+  119  ls
+  120  cd ..
+  121  git mv unix/data/foo2.txt unix/new
+  122  git mv data/foo2.txt unix/new
+  123  git mv data/foo2.txt new
+  124  unix/data/foo2.txt unix/new/foo2.txt
+  125  ls
+  126  mv unix/data/foo2.txt unix/new
+  127  mv foo2.txt~/unix/new
+  128  ls
+  129  pwd
+  130  cd ..
+  131  cd new
+  132  pwd
+  133  cd ..
+  134  mv /home/student-asn-36/unix/data
+  135  mv /home/student-asn-36/unix/data/foo2.txt /home/student-asn-36/unix/new
+  136  ls
+  137  cd new
+  138  ls
+  139  pwd
+  140  cd ..
+  141  pwd
+  142  cd new
+  143  mv /home/student-asn-36/new/foo2.txt /home/student-asn-36/unix
+  144  cd ..
+  145  <pre>mv /home/student-asn-36/new/foo2.txt /home/student-asn-36/unix</pre>
+  146  mv /home/student-asn-36/new/foo2.txt /home/student-asn-36/unix
+  147  cd new
+  148  ls
+  149  mv foo2.txt unix
+  150  ls
+  151  mv unix foo2.txt
+  152  ls
+  153  mv foo2.txt unix/foo-old.txt
+  154  mv /home/student-asn-36/unix/newfoo2.txt unix/foo-old.txt
+  155  cd ..
+  156  mv home/student-asn-36/unix/new/foo2.txt unix/foo-old.txt
+  157  cd new
+  158  ls
+  159  cd ..
+  160  mv home/student-asn-36/unix/nex/foo.2txt home/student-asn-36/unix
+  161  cd new
+  162  cd unix
+  163  cd new
+  164  mv foo2.txt foo-old.txt
+  165  ls
+  166  cd ..
+  167  ls
+  168  cd new
+  169  ls
+  170  mv foo-old.txt foo2.txt
+  171  ls
+  172  mv foo2.txt unix/ 
+  173  mv foo2.txt /unix/
+  174  mv foo2.txt/ unix/
+  175  mv foo2.txt 
+  176  mv new/foo2.txt /unix
+  177  cd to/the/dir
+  178  mv *../
+  179  <pre>mv /home/student-asn-36/unix/data/foo2.txt /home/student-asn-36/unix/new
+  180  mv /home/student-asn-36/unix/new/foo2.txt /home/student-asn-36/unix
+  181  ls
+  182  cd ..
+  183  ls
+  184  mv foo2.txt foo-old.txt
+  185  ls
+  186  rm foo-old.txt
+  187  ls
+  188  rm new
+  189  rmdir new
+  190  ls
+  191  history >> exo1.txt
+  192  cd ..
+  193  history >> exo1.txt
